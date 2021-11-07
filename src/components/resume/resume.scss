@@ -1,0 +1,80 @@
+.resume{
+    background-color: white;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+
+
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .container{
+
+        .tabs{
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 15px;
+
+
+
+            .button{
+                margin-top: 15px;
+                font-size: 20px;
+                color:grey;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                &:hover{
+                    color: #212529;
+                }
+            }
+        }
+    }
+}
+
+
+.data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1px;
+    justify-items: center;
+
+    .qSubtitle{
+        color: rgb(88, 88, 88);
+        display: inline-block;
+        margin-bottom: 2px;
+    }
+
+    .calendar{
+                display: flex;
+                align-items: center;
+                color: rgb(138, 137, 137);
+    }
+
+    .round{
+        display:inline-block;
+        width: 13px;
+        height: 13px;
+        background-color: #DF3F6D;
+        border-radius: 50%;
+    }
+
+    .line{
+        display: block;
+        width: 1px;
+        height: 90px;
+        background-color: #DF3F6D;
+        transform: translate(6px, -1px);
+        overflow: auto;
+        
+
+
+    }
+
+}
+
+
+
+
+

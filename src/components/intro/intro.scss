@@ -1,0 +1,244 @@
+@import "../../global.scss";
+
+.intro {
+    background-color: white;
+    display: flex;
+
+    
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .left{
+        flex: 0.5;
+        overflow: hidden;
+
+
+        .imgContainer{
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;   
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        float: right;
+        overflow: hidden;
+        background-color: #212529;
+
+
+
+        @include mobile{
+            align-items: flex-start;
+            height: 600px;
+            width: 600px;
+        }
+            img{
+            height: 100%;
+            transform: rotate(25deg);
+                
+            @include mobile{
+                height: 60%;
+            }
+            }
+        }
+
+
+    }
+    .right{
+        flex: 0.5;
+        position: relative;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @include mobile{
+                padding-left: 0;
+                align-items: center;
+            }
+            .buttons{
+                display: flex;
+                justify-content: left;
+
+                @include mobile{
+                    justify-content: center;
+                    left: 50%;
+                    margin-left:30px;
+                                    overflow: hidden;
+
+
+                }
+
+                .dark{
+                    background: #212529;
+                    color: white;
+
+
+                }
+                .pink{
+                    background: #DF3F6D;
+                    color: white;
+
+                }
+
+                .button1{
+
+                    color: #fff;
+                    text-decoration: none;
+                    margin-right: 40px;
+                    margin-top: 50px;
+                    padding: 14px 40px;
+                    width: 200px;
+                    transition: 1s all ease;
+                    border: none;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: all 0.5s;
+                    font-size: 20px;
+
+                    @include mobile{
+                        font-size: 20px;
+                        width: 150px;
+
+                    }
+                    
+
+                    a{
+
+                        width:100%;
+                        height:100%;
+
+                        &:visited { text-decoration: none; color:white; }
+
+                    }
+
+
+                    &:hover{
+                        span{
+                            padding-right: 25px;
+                            &:after{
+                                opacity: 1;
+                                right: 0;
+                            }
+                        }
+                    }
+
+                    span{
+                        cursor: pointer;
+                        display: inline-block;
+                        position: relative;
+                        transition: 0.5s;
+
+                        &:after{
+                            content: '\00bb';
+                            position: absolute;
+                            opacity: 0;
+                            top: 0;
+                            right: -20px;
+                            transition: 0.5s;
+                        }
+
+                    }
+
+                }
+
+            }
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+                font-weight: 700;
+
+                @include mobile{
+                    font-size: 40px;
+                }
+                
+            }
+
+            h3{
+                font-size: 20px;
+                font-weight: 500;
+
+                @include mobile{
+                    font-size: 20px;
+                }
+                
+                
+
+
+                span{
+                    font-size: inherit;
+                    color: #DF3F6D;
+                    font-weight: 700;
+                }
+                .ityped-cursor{
+                    animation: blink 1s infinite;
+                }
+
+                @keyframes blink{
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+
+                    }
+                }
+            }
+        }
+        /* a{
+            position: absolute;
+            bottom: 0px;
+            right: 55%;
+            animation: pulse 2s 2s ease-out infinite;
+            overflow: hidden;
+
+            img{
+                height: 150px;
+                opacity: 0;
+                animation: fade-slide-up 1s 7s ease-out forwards;
+            } 
+
+        }*/
+    }
+
+}   
+
+/*
+@keyframes pulse {
+
+	0% {
+		opacity: 1;
+		transform: none;
+	}
+	
+	50% {
+		opacity: .8;
+		transform: scale(.8);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@keyframes fade-slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(2rem);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+*/
