@@ -6,6 +6,15 @@ export const javaPortfolio = [
             "assets/shapesorter.png",
         link: "https://github.com/LauraTatianaToro/EECS3311_Project1_2021"
     },
+    {
+        id: 1,
+        title: "Design Pattern Quiz",
+        img:
+            "assets/designpatternquiz_screenshot.PNG",
+        link: "https://github.com/LauraTatianaToro/DesignPatternQuiz"
+    },
+
+    
     
 ];
 

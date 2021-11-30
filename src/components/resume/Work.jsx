@@ -10,14 +10,14 @@ const Work = () => {
 <div className="data">
     <div>
     <h3 className="qTitle">
-        Code Mentor
+        Fullstack Dev -Contract
     </h3>
     <span className="qSubtitle">
-        Canada Learning Code - Toronto, ON
+        WiSE / ElleHacks - Toronto, ON
     </span>
     <div className="calendar">
         <TodayIcon/>
-        2021-Present
+        2021- 2022
     </div>
     </div>
 
@@ -35,14 +35,14 @@ const Work = () => {
     </div>
     <div>
     <h3 className="qTitle">
-        Client Relations Associate
+        Code Mentor
     </h3>
     <span className="qSubtitle">
-        Align Custom Fit - Mississauga, ON
+        Canada Learning Code - Toronto, ON
     </span>
     <div className="calendar">
         <TodayIcon/>
-        2020 - 2021
+        2021-Present
     </div>
     </div>
 </div>
@@ -51,14 +51,14 @@ const Work = () => {
 
     <div>
     <h3 className="qTitle">
-        Claims Adjustor
+    Client Relations Associate
     </h3>
     <span className="qSubtitle">
-        United Van Lines - Mississauga, ON
+        Align Custom Fit - Mississauga, ON
     </span>
     <div className="calendar">
         <TodayIcon/>
-        2018 - 2019
+        2020 - 2021
     </div>
     </div>
 
