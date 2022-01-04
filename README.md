@@ -2,7 +2,7 @@
 
 A React app responsive interactive online resume.<p>
 
- View it here: <a href="www.lauratoro.art"> www.lauratoro.art </a> 
+ View it here: <a href="https://lauratatianatoro.github.io/React-Online-Resume-LauraToro/"> www.lauratoro.art </a> 
 
 ## Credits
 
