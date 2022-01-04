@@ -28,10 +28,18 @@ export const webPortfolio = [
     },
     {
         id: 2,
-        title: "Online Resume Template",
+        title: "CSS/HTML Online Resume Template",
         img:
             "assets/onload_layout.PNG",
         link: "https://github.com/LauraTatianaToro/online-resume-website-template.git"       
+            
+    },
+    {
+        id: 3,
+        title: "React App Resume",
+        img:
+            "assets/website_screenshot.PNG",
+        link: "https://github.com/LauraTatianaToro/React-Online-Resume-LauraToro.git"       
             
     },
 ];
